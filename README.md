@@ -74,13 +74,11 @@ $ apt get update
 $ apt install iproute2
 # IPアドレスを確認する
 $ ip address show
-
 ```
 
 ```
 # pg_hba.conf
 # dockerコンテナのIPを登録する。(172.23.0.2/16)
-
 host    all             all             172.23.0.2/16            password
 ```
 [Ubuntu18.04で自分自身のIPアドレスを調べる(IPコマンド)](https://k99-tech.com/blog/archives/1162)
